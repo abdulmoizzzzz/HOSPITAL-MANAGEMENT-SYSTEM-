@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Diagnosis.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Doctorsxaml.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LOGIN.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Medicines.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Patients.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Diagnosis.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Doctorsxaml.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LOGIN.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Medicines.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Patients.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
