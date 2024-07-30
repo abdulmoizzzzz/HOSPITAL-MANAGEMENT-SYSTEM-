@@ -1,0 +1,20 @@
+﻿<Window x:Class="AbdulMoiz_F20605021_pbl.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbdulMoiz_F20605021_pbl"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="form1" Height="550" Width="1000" ResizeMode="NoResize">
+
+
+    <Window.Background>
+        <ImageBrush ImageSource="Media/y.jpg"/>
+    </Window.Background>
+
+    <Grid>
+        <Label Content="HOSPITAL MANAGEMENT SYSTEM" Foreground="Red" FontSize="44" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="144,12,0,0" VerticalAlignment="Top" Height="90" Width="808"/>
+        <Button Content="WELCOME! CLICK HERE TO CONTINUE" TextBlock.FontSize="22" TextBlock.FontStyle="Italic" TextBlock.FontWeight="Heavy" Margin="275,415,270,50" Background="AntiqueWhite" Click="Button_Click"/>
+    </Grid>
+</Window>

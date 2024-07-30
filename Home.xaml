@@ -1,0 +1,38 @@
+﻿<Window x:Class="AbdulMoiz_F20605021_pbl.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbdulMoiz_F20605021_pbl"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Home" Height="650" Width="1000" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="Media/qq.jpg"/>
+    </Window.Background>
+
+    <Grid>
+        <Button  Background="Transparent" HorizontalAlignment="Left" Margin="525,29,0,0" VerticalAlignment="Top" Height="134" Width="155" Click="Button_Click_1">
+            <Image Source="Media/doctor.png" Height="110" Width="232" />
+
+        </Button>
+        <Button Background="Transparent" HorizontalAlignment="Left" Margin="668,199,0,0" VerticalAlignment="Top" Height="120" Width="150" Click="Button_Click_3">
+            <Image Source="Media/diagnostic.png" Height="110" Width="232" />
+        </Button>
+
+        <Button   Background="Transparent" HorizontalAlignment="Left" Margin="790,26,0,0" VerticalAlignment="Top" Height="129" Width="150" Click="Button_Click_2">
+            <Image Source="Media/patient.png" Height="140" Width="281" />
+        </Button>
+        <Button  Background="Transparent" HorizontalAlignment="Left" Margin="543,387,0,0" VerticalAlignment="Top" Height="105" Width="147" Click="Button_Click_4">
+            <Image Source="Media/drug.png" Height="107" Width="290" />
+        </Button>
+        <Button  Background="Transparent"  HorizontalAlignment="Left" Margin="808,385,0,0" VerticalAlignment="Top" Height="105" Width="142" Click="Button_Click_5">
+            <Image Source="Media/exit.png" Height="75" Width="208" />
+        </Button>
+        <Label  Background ="Bisque" Content="DOCTORS" TextBlock.FontSize="22" TextBlock.FontWeight="Bold" HorizontalAlignment="Left" Margin="523,166,0,0" VerticalAlignment="Top" Height="39" Width="122"/>
+        <Label  Background ="Bisque" Content="PATIENTS" TextBlock.FontSize="22" TextBlock.FontWeight="Bold" HorizontalAlignment="Left" Margin="843,164,0,0" VerticalAlignment="Top" Height="39" Width="112"/>
+        <Label  Background ="Bisque" Content="DIAGNOSIS" TextBlock.FontSize="22" TextBlock.FontWeight="Bold" HorizontalAlignment="Left" Margin="675,326,0,0" VerticalAlignment="Top" Height="35" Width="135"/>
+        <Label  Background ="Bisque" Content="MEDICINE" TextBlock.FontSize="22" TextBlock.FontWeight="Bold" HorizontalAlignment="Left" Margin="550,497,0,0" VerticalAlignment="Top" Height="39" Width="122"/>
+        <Label  Background ="Bisque" Content="LOGOUT" TextBlock.FontSize="22" TextBlock.FontWeight="Bold" HorizontalAlignment="Left" Margin="823,494,0,0" VerticalAlignment="Top" Height="39" Width="102"/>
+    </Grid>
+</Window>
