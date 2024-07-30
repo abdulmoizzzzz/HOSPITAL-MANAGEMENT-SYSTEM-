@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Media\diagnostic.png" />
+    <None Remove="Media\doctor.png" />
+    <None Remove="Media\drug.png" />
+    <None Remove="Media\exit.png" />
+    <None Remove="Media\ff.jpg" />
+    <None Remove="Media\hello.jpg" />
+    <None Remove="Media\lpp.png" />
+    <None Remove="Media\patient.png" />
+    <None Remove="Media\plo.jpg" />
+    <None Remove="Media\qa.jpg" />
+    <None Remove="Media\qq.jpg" />
+    <None Remove="Media\tre.jpg" />
+    <None Remove="Media\xxx.jpg" />
+    <None Remove="Media\Y.jpg" />
+    <None Remove="Media\zz.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Media\lpp.png" />
+    <Resource Include="Media\tre.jpg" />
+    <Resource Include="Media\xxx.jpg" />
+    <Resource Include="Media\zz.jpg" />
+    <Resource Include="Media\ff.jpg" />
+    <Resource Include="Media\plo.jpg" />
+    <Resource Include="Media\qa.jpg" />
+    <Resource Include="Media\diagnostic.png" />
+    <Resource Include="Media\doctor.png" />
+    <Resource Include="Media\drug.png" />
+    <Resource Include="Media\exit.png" />
+    <Resource Include="Media\hello.jpg" />
+    <Resource Include="Media\patient.png" />
+    <Resource Include="Media\qq.jpg" />
+    <Resource Include="Media\Y.jpg" />
+  </ItemGroup>
+
+</Project>
